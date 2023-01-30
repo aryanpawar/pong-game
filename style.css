@@ -6,7 +6,8 @@ body {
     position: relative;
     width: 640px;
     height: 480px;
-    background-color: black;
+    background-color: #BFD7EA;
+    margin: auto;
 }
 
 #score_player1, #score_player2 {
@@ -16,22 +17,22 @@ body {
 }
 
 #score_player1 {
-    left: 155px;
+    left: 150px;
     top: 50px;
-    background-color: greenyellow;
+    background-color: #FF6663;
 }
 
 #score_player2 {
-    left: 290px;
+    left: 300px;
     top: 50px;
-    background-color: pink;
+    background-color: #E0FF4F;
 }
 
 #divider{
     position: absolute;
     width: 1px;
-    background-color: white;
-    border: 1px dashed grey;
+    background-color: grey;
+    border: 1px dashed black;
 }
 
 #player, #bot {
@@ -39,14 +40,18 @@ body {
 }
 
 #player {
-    background-color: greenyellow;
+    background-color: #FF6663;
 }
 
 #bot {
-    background-color: pink;
+    background-color: #E0FF4F;
 }
 
 #ball {
-    background-color: red;
+    background-color: #0B3954;
     border-radius: 50%;
+}
+
+h2,h4 {
+    text-align: center;
 }
